@@ -101,7 +101,7 @@ print('\n')
 
 display('Part d. ', part_d)
 ```
-The 5 dataframes are displayed, including the orignal dataframe, along with their labels, by using the ```display()``` function. The output is as shown:
+The 5 dataframes are displayed, including the original dataframe, along with their labels, by using the ```display()``` function. The output is as shown:
 
 <img width="473" height="833" alt="image" src="https://github.com/user-attachments/assets/39f0e3a0-86be-4a85-886f-1e9db1b12f64" />          <img width="462" height="511" alt="image" src="https://github.com/user-attachments/assets/1ec8f052-7f6d-4d29-a2ce-16be74cfb733" />
 
