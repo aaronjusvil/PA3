@@ -29,7 +29,7 @@ display('First and Last 5 Rows: ', first_last_5)
 
 
 
-***Problem 2:*** Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.
+***Problem 2:*** Using the dataframe ```cars``` in problem 1, extract the following information using subsetting, slicing and indexing operations.
 
 ***a.)*** Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 ```
