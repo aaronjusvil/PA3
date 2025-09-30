@@ -22,7 +22,7 @@ display('First and Last 5 Rows: ', first_last_5)
 #Displays the sliced dataframe which shows the first and last 5 rows of the original dataframe
 ```
 
-***Code Description:*** This code calls on a .csv file dataframe using ```pd.read_csv('cars.csv')``` and saves it into ```cars```. ```cars.head()``` and ```cars.tail()``` call on the first and last five rows of the dataframe automatically. These two are concatenated and connected to eachother, creating a single new dataframe with only the needed rows, and that new dataframe is saved into variable ```first_last_5```. The two dataframes are presented using ```display()```, along with their labels. The output shows:
+***Code Description:*** This code calls on a .csv file and saves it into a variable. The first and last 5 rows of the dataframe are concatenated together, which creates a new dataframe, which is then saved into a variable. Both the original and the new data frame are presented. The output shows:
 
 <img width="469" height="835" alt="image" src="https://github.com/user-attachments/assets/6335f766-56f3-4848-94c4-795a2c2c966c" />                      <img width="491" height="303" alt="image" src="https://github.com/user-attachments/assets/eb8028fc-efb4-4283-a452-9fe9b9d6cf20" />
 
@@ -40,7 +40,7 @@ part_a = cars.loc[0:4, ['Model', 'mpg', 'cyl', 'hp', 'wt', 'vs', 'gear']]
 #Looks for and obtains the "cars" dataframe's rows from index 0-4, including 4, and displays their models, and then the odd numbered columns that come after,
 #which are the 'mpg', 'cyl', 'hp', 'wt', 'vs', and 'gear' columns, and stores it to variable 'part_a'
 ```
-***Code Description:*** ```cars.loc[0:4, ['Model', 'mpg', 'cyl', 'hp', 'wt', 'vs', 'gear']]``` finds and gets the rows of index 0-4, but only getting the columns labeled 'Model', 'mpg', 'cyl', 'hp', 'wt', 'vs', 'gear', which are the odd numbered columns of the original dataframe. This new dataframe is saved into variable 'part_a'.
+***Code Description:*** This code finds and gets the rows of index 0-4 of the original dataframe, but only presents the columns labeled 'Model', 'mpg', 'cyl', 'hp', 'wt', 'vs', 'gear', which are the odd numbered columns of the original dataframe. This new dataframe is saved into variable 'part_a'.
 
 ***b.)*** Display the row that contains the ‘Model’ of ‘Mazda RX4’.
 ```
